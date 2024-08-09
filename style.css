@@ -15,56 +15,22 @@ img{
       margin: 0;
       padding: 0;
       text-align: center;
-  
-  .container {
-      display: flex;
-      flex-wrap: flex;
-    }
-    
-    
-    
-    .left {
-      flex:2;
-      padding: 10px;
-    background-color: #000000;
   }
-    .right {
-      flex:1;
-      padding:10px;
-    background-color: #000000;
-    
-    .single-column {
-    flex-basis: 100%;
-    padding: 20px;
-    background-color: #000000; 
-    border-top: 1px solid #000000; 
-    
-    .container {
-      display: flex;
-      flex-wrap: flex;
-    }
-    
-    .left {
-      flex:2;
-      padding: 10px;
-    background-color: #000000;
-  }
-    .right {
-      flex:1;
-      padding:10px;
-    background-color: #000000;
-    }
-  img{
-    border-radius:12px;
-  }
-  
-    .single-column {
-    background-color: :#000000;
       
-    }
-  .single-column {
-    flex-basis: 100%;
-    padding: 20px;
-    background-color: #000000; 
-    border-top: 1px solid #000000; 
-}
+  .button-container {
+    display: inline-flex;
+    gap: 10px;
+  }
+  .button{
+      display: inline-block;
+      width: 100px;
+      height: 20px;
+      background-color: #007AFF;
+      color: white;
+      text-align: center;
+      font-size: medium;
+      text-decoration: none;
+      margin:10px;
+      padding: 10px 30px;
+      border-radius: 12px;
+  }
