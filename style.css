@@ -1,4 +1,38 @@
-img{
+.header{
+    background-color:#000000;
+    color: white;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  header .logo img {
+    height: 50px;
+  }
+
+  header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+  }
+
+  header nav ul li {
+    margin: 0 15px;
+  }
+
+  header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+  }
+
+  header nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  img{
     border-radius:50%;
   }
   h1{
