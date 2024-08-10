@@ -34,3 +34,9 @@ img{
       padding: 10px 30px;
       border-radius: 12px;
   }
+  footer {
+    background-color: #eeeeee;
+    color: #000000;
+    text-align: center;
+    padding: 20px 0;
+}
